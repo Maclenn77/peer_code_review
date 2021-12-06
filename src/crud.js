@@ -47,9 +47,3 @@ export function removeAllFrom(thelist) {
     removeTaskFrom(thelist, task);
   });
 }
-
-export function populate(thelist) {
-  createTask('This a an example task', thelist);
-  createTask('This another example task', thelist);
-  createTask('You can remove and modify these tasks :)', thelist);
-}
